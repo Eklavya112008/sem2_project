@@ -1,0 +1,86 @@
+.portfolio {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #4cafef, #6a11cb, #2575fc);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 20%; /* moves focus upward */
+  border: 4px solid transparent;
+  background: linear-gradient(45deg, #ff6a00, #ee0979);
+  padding: 4px; /* gradient border effect */
+  box-shadow: 0 0 25px rgba(255,255,255,0.5);
+  transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.2);
+}
+
+
+
+.name {
+  font-size: 2.5rem;
+  margin: 15px 0;
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #f0f0f0;
+}
+
+.about, .contact {
+  margin: 25px 0;
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(6px);
+}
+
+.about h2, .contact h2 {
+  color: #ffe600;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact li {
+  margin: 10px 0;
+}
+
+.contact a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact a:hover {
+  color: #ffe600;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #ddd;
+}
