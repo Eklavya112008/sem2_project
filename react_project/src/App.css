@@ -37,9 +37,12 @@
   font-size: 2.5rem;
   margin: 15px 0;
   background: linear-gradient(90deg, #ff6a00, #ee0979);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background-clip: text;              /* standard property */
+  -webkit-background-clip: text;      /* for WebKit browsers */
+  color: transparent;                 /* makes gradient visible */
+  -webkit-text-fill-color: transparent; /* ensures compatibility */
 }
+
 
 .tagline {
   font-size: 1.2rem;
