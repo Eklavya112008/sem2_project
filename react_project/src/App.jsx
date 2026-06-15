@@ -27,8 +27,8 @@ function App() {
       <section className="contact">
         <h2>Contact</h2>
         <ul>
-          <li>Email: <a href="mailto:yourgmail@gmail.com">yourgmail@gmail.com</a></li>
-          <li>Phone: <a href="tel:+91XXXXXXXXXX">+91 XXXXX XXXXX</a></li>
+          <li>Email: <a href="mailto:yourgmail@gmail.com">eklavya112008gmail@gmail.com</a></li>
+          <li>Phone: <a href="tel:+91XXXXXXXXXX">+91 98378 XXXXX</a></li>
         </ul>
       </section>
 
